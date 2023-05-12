@@ -1,19 +1,46 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <!--HTML file auto generated using EmulatorJS codehelper-->
-    </head>
-    <body>
-        <div style="width:1240px;height:880px;max-width:100%">
-            <div id="game"></div>
-        </div>
-        <script>
-            EJS_player = "#game";
-            EJS_core = "gba";
-            EJS_gameName = "Pokemon Fire Red";
-            EJS_color = "#0064ff";
-            EJS_pathtodata = "https://rawcdn.githack.com/EmulatorJS/EmulatorJS/main/data/";
-            EJS_gameUrl = "Pokemon - Fire Red Version (U) (V1.1).gba";
-        </script>
-        <script src="https://rawcdn.githack.com/EmulatorJS/EmulatorJS/main/data/loader.js"></script>
-    </body>
+  <head>
+    <title>Left Border with Links</title>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .border-left {
+        border-left: 2px solid yellow;
+        padding: 20px;
+      }
+
+      .border-left a {
+        display: block;
+        padding: 10px 0;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-size: 18px;
+      }
+
+      .border-left a:hover {
+        border-color: yellow;
+      }
+
+      @media screen and (min-width: 768px) {
+        .border-left {
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100%;
+          overflow-y: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border-left">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <li><a href="Roms scripts/Pokemon fire red.html">Pokemon Fire red</a></li>
+    </div>
+  </body>
 </html>
